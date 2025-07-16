@@ -1,4 +1,4 @@
-# 🧠 Qween 7B
+# 🧠 Mistral 7b Instruct
 
 This repository provides a structured framework for evaluating response generation techniques using the `qwen2_5_7b_instruct` model. The system explores multiple expert strategies for generating, aggregating, and routing conversational AI outputs, with performance tracked using ROUGE scores.
 
