@@ -865,7 +865,7 @@ def create_dataset():
                 
                 # Create a dictionary from the original row and add the new response
                 current_row_data = row.to_dict()
-                current_row_data['llama_3b Router Response'] = qwen_response
+                current_row_data['Gemma Router Response'] = qwen_response
                 processed_rows.append(current_row_data)
 
                 # Update the history for the next turn in this conversation
