@@ -3,7 +3,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import pandas as pd
 import torch
 
-model_name = "/scratch/rohank__iitp/qween_fine_tune2"
+print("Loading model and tokenizer...")
+
+model_name = "/scratch/rohank__iitp/qween_fine_tune"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
@@ -32,7 +34,7 @@ def generate(prompt:str):
     response = tokenizer.decode(generated_tokens, skip_special_tokens=True)
     return response.strip()
 
-generate("Hi, I'm looking to get motor insurance for my new electric vehicle. It's a 2024 Tesla Model 3.")
+
 
 # %%
 def model_response(dialogue):
@@ -52,7 +54,7 @@ import pandas as pd
 def create_dataset():
 
     # Make sure your CSV has the columns: 'conversation_id', 'turn_no', 'utterance', 'new_agent_reply'
-    df = pd.read_csv('/home/rohank__iitp/Work/niladri/fine tuning/inferencing/new_dataset_conversation.csv')
+    df = pd.read_csv('/home/rohank__iitp/Work/niladri/fine tuning/train_conversation.csv')
     # --- Response Generation and Incremental Saving ---
 
     if not df.empty:
@@ -113,8 +115,18 @@ def create_dataset():
         print("\nDataFrame is empty. No responses were generated or saved.")
 
 # %%
+from datetime import datetime
+start_time = datetime.now()
+print("="*10)
+print(f"Dataset creation started at--> {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+print("Starting dataset creation...")
 
 
 create_dataset()
+
+print("="*10)
+end_time = datetime.now()
+print(f"Dataset creation finished at--> {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
+print(f"Dataset creation took {end_time - start_time} seconds.")
 
 

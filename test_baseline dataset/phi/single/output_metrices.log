@@ -1,0 +1,6 @@
+hi
+Loading Gemma3 4B model...
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:15,  3.09s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.10s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:09<00:09,  3.17s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:12<00:06,  3.31s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:16<00:03,  3.27s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:18<00:00,  2.89s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:18<00:00,  3.05s/it]
+Started at---> 2025-07-26 22:10:15
+Finished time---> 2025-07-26 23:38:18
+ completed in 1:28:02.751932 seconds
