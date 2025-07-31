@@ -1,7 +1,2 @@
-Metrices has been started for single
-
-phi  tmux attach -t phi_compare_single ragpu006
-gemma   tmux attach -t compare_single ragpu006
-qween tmux attach -t qween_compare_single  ragpu006
-llama_3b tmux attach -t llama_3b_compare_single  ragpu006
-llma8b tmux attach -t llama_8
+gpu3 single
+gpu6 router metrics

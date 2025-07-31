@@ -1,0 +1,8 @@
+/home/rohank__iitp/.conda/envs/rohan12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.22.4 and <2.3.0 is required for this version of SciPy (detected version 2.3.2)
+  from scipy.sparse import csr_matrix, issparse
+hi
+Loading Gemma3 4B model...
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.83s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.93s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.94s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.18s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.45s/it]
+Started at---> 2025-07-30 17:13:47
+Finished time---> 2025-07-30 17:32:31
+ completed in 0:18:43.780116 seconds
