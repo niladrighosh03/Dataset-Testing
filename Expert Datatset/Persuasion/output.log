@@ -1,0 +1,12 @@
+/home/rohank__iitp/.conda/envs/rohan12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.22.4 and <2.3.0 is required for this version of SciPy (detected version 2.3.2)
+  from scipy.sparse import csr_matrix, issparse
+Loading model and tokenizer...
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:17,  3.47s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.07s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:08<00:08,  2.91s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:11<00:05,  2.85s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:14<00:02,  2.83s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:16<00:00,  2.64s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:16<00:00,  2.80s/it]
+Device set to use cuda:0
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Label: Emotional appeal
+<reason>The sentence aims to persuade the reader by evoking emotions related to safety and security in a potentially stressful situation, such as being stranded after an accident. It paints a vivid picture of a distressing scenario and then offers a solution that promises immediate help and protection for the user and their loved ones. The focus on peace of mind and the ability to concentrate on the journey rather than worrying about potential accidents appeals directly to the reader's emotional responses. This strategy seeks to connect with the user on an emotional level, creating a sense of reassurance and trust in the insurance coverage. The use of phrases like "stranded," "one call away," "protected at all times," and "focus on the journey" are designed to evoke feelings of safety and comfort, making it a clear example of an emotional appeal.</reason>
+Started at---> 2025-08-12 23:23:12
+Processing complete. Output saved to /home/rohank__iitp/Work/niladri/Expert Datatset/Persuasion/Persuasion_results.csv
+Finished time---> 2025-08-14 16:38:38
+ completed in 1 day, 17:15:25.503332 seconds
